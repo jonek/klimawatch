@@ -9,7 +9,7 @@ paginate = 3
 theme = "piercer"
 
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
 
 [params.klimawatch]
     [[params.klimawatch.kommunen]]
@@ -36,9 +36,12 @@ unsafe= true
     [[params.klimawatch.kommunen]]
         name = "Chemnitz"
         slug = "chemnitz"
+    [[params.klimawatch.kommunen]]
+        name = "Aachen"
+        slug = "aachen"
 
 [blackfriday]
-	hrefTargetBlank = true
+    hrefTargetBlank = true
 
 [privacy]
     [privacy.twitter]
